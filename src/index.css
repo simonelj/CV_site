@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+h1 {
+    color: white;
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: calc(var(--spacing) * 4);
+    font-size: var(--text-4xl);
+
+
+}
+
+h2 {
+    color: white;
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: calc(var(--spacing) *4);
+    font-size: var(--text-3xl);
+}
+
+h3 {
+    color: white;
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: calc(var(--spacing) *2);
+    font-size: var(--text-xl);
+}
+
+p {
+    color: white;
+    font-weight: var(--font-weight-light);
+    margin-bottom: calc(var(--spacing) *2);
+    font-size: var(--text-lg);
+
+}
+
+li {
+    color: white;
+    font-weight: var(--font-weight-light);
+    font-size: var(--text-lg);
+    margin-bottom: calc(var(--spacing));
+
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: calc(var(--spacing)*6);
+
+}
+
+@layer utilities{
+    .animate-in {
+        animation-fill-mode: both;
+    }
+
+    .slide-in-from-top {
+        animation-name: slideInFromTop;
+    }
+
+     .slide-in-from-bottom {
+        animation-name: slideInFromBottom;
+    }
+
+    .duration-300 {
+        animation-duration: 300ms;
+    }
+
+    .duration-700 {
+        animation-duration: 700ms;
+    }
+
+    .delay-200 {
+        animation-delay: 200ms;
+    }
+
+     .delay-400 {
+        animation-delay: 400ms;
+    }
+}
+
+@keyframes slideInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(1rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
