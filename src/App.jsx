@@ -14,7 +14,7 @@ function App() {
     <div className="absolute top-0 left-20 w-100 h-100 bg-blue-500/10 rounded-full blur-3xl animate-pulse" />
 
     <Navbar />
-    <div className="max-w-4xl mx-auto">
+    <div className="max-w-4xl md:mx-auto m-4">
        <Hero />
       <About />
       <WorkExperience />

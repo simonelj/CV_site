@@ -1,14 +1,10 @@
-import { ArrowRight, ChevronDown, ChevronRight, Play, Sparkle, Sparkles } from "lucide-react";
-import { useEffect, useState } from "react";
-import { codeExamples } from "../data/CodeExample";
-import { cardContent } from "../data/CodeExample";
+import { ChevronDown, ChevronRight} from "lucide-react";
+
+import { handleNavClick } from "./subcomponents/navHandler";
 
 export default function Hero()
 {
-    const[mousePosition,setMousePosition] = useState({x:0, y:0});
-    const[activeTab,setActiveTab] = useState("Page 1");
 
-    const currentFloatingCard = cardContent[activeTab];
     return (
         
         <section className="relative min-h-screen items-center justify-center pt-16 sm:pt-70 px-4 sm:px-6 lg:px-8 overflow-hidden"> 
@@ -51,8 +47,10 @@ export default function Hero()
                 </div>
             </div>
             <div className="flex justify-center mt-20">
-                <ChevronDown className="w-20 h-20 "/>
-                </div>     
+                <a href="#about" onClick={(e) => handleNavClick(e, 'about')} className="group inline-block cursor-pointer">
+                    <ChevronDown className="w-20 h-20 transform transition-transform duration-300 ease-in-out group-hover:scale-110 group-hover:translate-y-2" />
+                </a>
+            </div>
             
         </section>
     );
