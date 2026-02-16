@@ -19,22 +19,17 @@ export default function Hero()
                         </span>
 
                         <div className="flex flex-col items-center justify-center gap-3 m-4  animate-in slide-in-from-bottom duration-700 delay-400">
-                            <button className="group w-full px-6 py-3 bg-gradient-to-b from-sky-600 to-sky-700 rounded-lg hover:scale-102 flex items-center justify-center">
+                            <button onClick={(e) => handleNavClick(e, 'workExperience')}  className="group w-full px-6 py-3 bg-gradient-to-b from-sky-600 to-sky-700 rounded-lg hover:scale-102 flex items-center justify-center">
                                 <span>See where I've worked and studied</span>
                                 <ChevronRight />
                             </button>
 
-                            <button className="group w-full px-6 py-3 bg-gradient-to-b from-sky-600 to-sky-700 rounded-lg hover:scale-102 flex items-center justify-center">
+                            <button onClick={(e) => handleNavClick(e, 'skills')} className="group w-full px-6 py-3 bg-gradient-to-b from-sky-600 to-sky-700 rounded-lg hover:scale-102 flex items-center justify-center">
                                 <span>Get an overview of what I'm good at</span>
                                 <ChevronRight />                                
                             </button>
 
-                            <button className="group w-full px-6 py-3 bg-gradient-to-b from-sky-600 to-sky-700  rounded-lg hover:scale-102 flex items-center justify-center">
-                                <span>Take a look at some of my projects</span>
-                                <ChevronRight />                                
-                            </button>
-
-                            <button className="group w-full px-6 py-3 bg-gradient-to-b from-sky-600 to-sky-700  rounded-lg hover:scale-102 flex items-center justify-center">
+                            <button onClick={(e) => handleNavClick(e, 'contact')} className="group w-full px-6 py-3 bg-gradient-to-b from-sky-600 to-sky-700  rounded-lg hover:scale-102 flex items-center justify-center">
                                 <span>Contact me</span>
                                 <ChevronRight />                                
                             </button>

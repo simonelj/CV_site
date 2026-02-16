@@ -25,7 +25,7 @@ export default function Navbar()
 
                     <a href="#skills" onClick={(e) => handleNavClick(e, 'skills')} className="text-gray-300 hover:text-white text-sm lg:text-base">Skills</a>
 
-                    <a href="#projects" onClick={(e) => handleNavClick(e, 'projects')} className="text-gray-300 hover:text-white text-sm lg:text-base">Projects</a>
+                    {/*<a href="#projects" onClick={(e) => handleNavClick(e, 'projects')} className="text-gray-300 hover:text-white text-sm lg:text-base">Projects</a>*/}
 
                     <a href="#contact" onClick={(e) => handleNavClick(e, 'contact')} className="text-gray-300 hover:text-white text-sm lg:text-base">Contact</a>
                 </div>
@@ -46,8 +46,8 @@ export default function Navbar()
 
                     <a href="#skills" className="block text-gray-300 hover:text-white text-sm lg:text-base" onClick={(e) => { setMobileMenuIsOpen(false); handleNavClick(e, 'skills') }}>Skills</a>
 
-                    <a href="#projects" className="block text-gray-300 hover:text-white text-sm lg:text-base" onClick={(e) => { setMobileMenuIsOpen(false); handleNavClick(e, 'projects') }}>Projects</a>
-
+                   {/* <a href="#projects" className="block text-gray-300 hover:text-white text-sm lg:text-base" onClick={(e) => { setMobileMenuIsOpen(false); handleNavClick(e, 'projects') }}>Projects</a>
+*/}
                     <a href="#contact" className="block text-gray-300 hover:text-white text-sm lg:text-base" onClick={(e) => { setMobileMenuIsOpen(false); handleNavClick(e, 'contact') }}>Contact</a>
                 </div>
             </div>
