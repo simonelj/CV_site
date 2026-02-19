@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/slj_cv_site/',
+  base: '/CV_site/',
   plugins: [
     react({
       babel: {
@@ -13,4 +13,7 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
+  build: {
+    outDir: 'build'
+  },
 })
