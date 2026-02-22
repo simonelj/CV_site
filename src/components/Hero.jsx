@@ -37,7 +37,7 @@ export default function Hero()
                     </div>
                     
                     <div className="order-2 w-full flex items-center justify-center mx-auto">
-                        <img className="rounded-full w-80 drop-shadow-xl  animate-in slide-in-from-bottom duration-700 delay-200" src="/me_at_mir.jpg" />
+                        <img className="rounded-full w-80 drop-shadow-xl  animate-in slide-in-from-bottom duration-700 delay-200" src="/pictures/me-at-mir.jpg" />
                     </div>
                 </div>
             </div>

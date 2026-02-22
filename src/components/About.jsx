@@ -10,7 +10,7 @@ export default function About()
                 <div>
                     <p>With over six years of experience at MiR, I have tried being a technical writer in a startup environment and played a part in the transition to a more established company. I thrive in a dynamic workplace where new challenges and projects are introduced regularly and there is room to suggest improvements for current processes. </p>
                     <div className="sm:flex sm:items-center " >
-                 <img className="p-6 sm:w-1/2 w-full" src="\illustrations\Techwriter_light_gradient.png" />
+                 <img className="p-6 sm:w-1/2 w-full" src="\illustrations\techwriter.png" />
                 <p>During my time as a technical writer, I have taken charge of managing several documentation projects and investigating ways to make our work more efficient. This consisted mainly of creating scripts to automate repetitive processes. My strong skill set and technical knowledge, combined with my eagerness to learn and improve, as well as complete the task set in front of me, make me an excellent technical writer and capable internal tool developer. </p>
             </div>
                 </div>
