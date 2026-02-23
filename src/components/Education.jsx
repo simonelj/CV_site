@@ -10,7 +10,7 @@ export default function Education()
                    <EducationEntry eduTitle="International Baccalaureate" eduYears= "2013-2015" eduPlace="Grenaa Gymnasium, Grenå, Denmark" eduImage ="logos/ib.png" />
                 </div>
                 <div>
-                    <img className="w-90" src="/illustrations/education.png"></img>
+                    <img className="w-90" src="\illustrations\education.png"></img>
                 </div>
             </div>
             
