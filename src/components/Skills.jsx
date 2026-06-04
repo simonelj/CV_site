@@ -9,12 +9,12 @@ export default function Skills()
             <SkillEntry 
             skillTitle="Docs-as-code"  
             skillList={[`Markdown`, `git`, `VS code`, `React`, `AI tools`]} 
-            skillContent="I've lead the project to reconstruct our documentation site using docs-as-code. The new site uses a React-based platform with Markdoc syntax for the documentation pages. I visualized, tested, and implemented the version control, file structure, piepline and automated tools for this project. "
+            skillContent="I've lead the project to reconstruct our documentation site using docs-as-code. The new site uses a React-based platform with Markdoc syntax for the documentation pages. I visualized, tested, and implemented the version control, file structure, pipeline and automated tools for this project. "
             skillImage="docs-to-code.png"/>
             <SkillEntry 
             skillTitle="Technical writing"  
             skillList={[`Madcap Flare`, `Single sourcing`, `Direct contact with R&D`, `Consistent styling and tone`]} 
-            skillContent="I have managed and written documentation in Madcap Flare for the past 8 years. I am well prcaticed at single sourcing text where possible and maintaining file structure for efficient collaboration in the technical writing team. I am used to communicating diractly with R&D to understand software and hardware features. "
+            skillContent="I have managed and written documentation in Madcap Flare for the past 7 years. I am well practiced at single sourcing text where possible and maintaining file structure for efficient collaboration in the technical writing team. I am used to communicating directly with R&D to understand software and hardware features. "
             skillImage="typewriter.png"/>
             <SkillEntry 
             skillTitle="3D modelling"  
@@ -29,7 +29,7 @@ export default function Skills()
             <SkillEntry 
             skillTitle="Programming"  
             skillList={[`Python`, `HTML`, `CSS`, `Object oriented programming`, `APIs`]} 
-            skillContent="I learned C++ programming at University, but at work I have more frequently made use of Python for automating various tasks for documentation. For many of my documentation tools, I have used APIS to upload and download files from interfaces like Figma and JIRA. I also have experience testing the APIs for MiR products and reading parts of the code in the MiR software. "
+            skillContent="I learned C++ programming at University, but at work I have more frequently made use of Python for automating various tasks for documentation. For many of my documentation tools, I have used APIs to upload and download files from interfaces like Figma and JIRA. I also have experience testing the APIs for MiR products and reading parts of the code in the MiR software. "
             skillImage="programming.png"/>
             <SkillEntry 
             skillTitle="Task and team management"  
