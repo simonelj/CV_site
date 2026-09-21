@@ -1,14 +1,14 @@
 export const workExperienceData ={
      "TechWriter" : {
-        title: "Technical writer",
+        title: "Technical Writer",
         workPlace: "Mobile Industrial Robots",
-        date: "2019-2026",
-        content:`As the only technical writer with an engineering education in the team, I am responsible for the most technical aspects of our work. Besides maintaining documentation, release notes, and resources for robot hardware and software, my core tasks included:
-- Managing our Madcap Flare project, including the file structure, styling, and git repository.
-- Implementing new processes and tools to improve our workflow. This often included close collaboration with R&D.
-- Developing the website where we host our documentation and finding efficient integration methods. 
-- Creating troubleshooting guides based on workshops with subject matter experts, wiring diagrams, resolved JIRA tickets, and internal articles on Confluence.
-- Collaborating with our Compliance and Legal department to ensure documentation meets requirements from standards.`
+        date: "2019–2026",
+        content:`Technical writer for industrial mobile robots. My tasks include:
+- Led Madcap Flare management: reorganized file structure and templates for consistent authoring and easier maintenance.
+- Rebuilt documentation site using docs-as-code (React/Markdoc) and implemented CI for versioned publishing.
+- Automated publishing workflows and tooling with Python and APIs (Figma, JIRA), reducing manual publish steps and errors.
+- Produced troubleshooting guides from SME workshops and Jira data; collaborated with Compliance/Legal to align docs with standards.
+- Produced and managed a large volume of illustration, renders, and graphical aids for documentation, including 3D modeling and image editing.`
     },
      "ResearchAss" : {
         title: "Research assistant",
